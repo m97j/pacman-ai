@@ -67,7 +67,7 @@
   - 방문 기록에 비용 비교하여 재방문 방지
   - Manhattan/Euclidean or 사용자 커스텀 휴리스틱 적용 가능
 
----
+--
 
 ### 🧭 SearchAgent 클래스 작동 방식
 
@@ -94,7 +94,6 @@
 - **Food 및 유령까지의 거리 계산**하여 식량과 생존 둘을 동시에 고려
 - `foodScore`와 `ghostScore`의 조합을 통해 안전성과 효율성을 균형 있게 반영
 
----
 
 #### 🎯 MultiAgentSearchAgent 클래스 계층
 - **MinimaxAgent**, **AlphaBetaAgent**, **ExpectimaxAgent** 작성
@@ -116,7 +115,6 @@
 - 평균 기대값 기반 의사결정 구조 구현
 - 해당 로직은 `expectimaxVal()` 내부에 상세 주석 포함
 
----
 
 #### 🎯 betterEvaluationFunction
 - **Pacman 행동을 정교하게 추정하는 함수**로 직접 구현
