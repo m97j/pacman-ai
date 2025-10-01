@@ -46,7 +46,7 @@
   - 휴리스틱 기반 경로 최적화 구현 경험 포함
 - 👾 **Adversarial Agent**: Minimax, Alpha-Beta, Expectimax 알고리즘 구현 (`multiAgents.py`)
   - 유령 행동 예측 및 의사결정 로직 직접 구현
-- 🤖 **Reinforcement Learning Agent**: Value Iteration, Q-Learning, Approximate Q-Learning (`valueIterationAgents.py`)
+- [🤖 **Reinforcement Learning Agent**](rl): Value Iteration, Q-Learning, Approximate Q-Learning (`valueIterationAgents.py`)
   - MDP 기반 상태 가치 함수 계산 및 학습 실험 수행
 - 🧪 **Policy Analysis**: 실험 파라미터 변화에 따른 정책 성향 분석 (`analysis.py`)
 
